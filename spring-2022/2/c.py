@@ -1,0 +1,5 @@
+n=list(map(int,input().split(" ")))
+print(n)
+n.remove(n[0])
+n.remove(n[len(n)-1])
+print(n)
